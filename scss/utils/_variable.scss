@@ -1,0 +1,123 @@
+$primary-text-color: #212121;
+$hero--text-color: white;
+$text-color: #757575;
+$accent-color: #2196f3;
+$info--footer-color: rgba(255, 255, 255, 0.6);
+$footer-color-fon: #2f303a;
+$section-color: #afb1b8;
+$blok-title: rgba(47, 48, 58, 0.8);
+$button-color: rgb(73, 180, 247);
+$pic-feature-wrap-color: #f5f4fa;
+$developers-text-footer: rgba(255, 255, 255, 0.4);
+$footer-social-beckground: rgba(255, 255, 255, 0.1);
+
+$timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+$transition-values: 250ms, $timing-function;
+
+.font-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+%button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.06em;
+  background-color: $accent-color;
+  color: $hero--text-color;
+  border-radius: 4px;
+  border: none;
+  width: 200px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  transition-property: background-color;
+  transition: $transition-values;
+
+  &:hover,
+  &:focus {
+    background-color: $button-color;
+  }
+}
+
+.h3-font {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.some-font {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.h2-font {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: var $primary-text-color;
+  text-align: center;
+}
+.portfolio-font-button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.portfolio-description-font {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: $hero--text-color;
+}
+
+.project-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+
+.project-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+}

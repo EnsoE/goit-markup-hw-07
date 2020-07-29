@@ -1,0 +1,82 @@
+.ourteam-backgr {
+  background-color: $pic-feature-wrap-color;
+  height: 702px;
+}
+
+.ourteam-conteiner {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 94px auto 94px auto;
+  padding-top: 94px;
+
+  .item {
+    background-color: white;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 1px 3px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    width: 270px;
+  }
+  h2 {
+    @extend .h2-font;
+  }
+  ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+}
+
+.name {
+  @extend .font-name;
+  color: $primary-text-color;
+}
+
+.profession {
+  @extend .font-name;
+  color: $text-color;
+}
+
+.list-icon {
+  width: 206px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0;
+  margin-top: 16px;
+  margin-bottom: 24px;
+  margin-left: 32px;
+}
+
+.list-icon {
+  p {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    background-color: white;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    color: $section-color;
+    transition-property: color fill;
+    transition: $transition-values;
+  }
+
+  p:hover,
+  p:focus svg {
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+    background-color: $accent-color;
+    color: white;
+  }
+}
+
+.icon-social {
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  --color1: currentColor;
+}
